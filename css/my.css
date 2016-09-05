@@ -1,0 +1,181 @@
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color: rgba(158,0,93,1);
+}
+
+/*Typography*/
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. */
+html {
+  font-size: 62.5%; }
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Roboto","Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+p {
+  margin-top: 0; }
+
+
+.logo{
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+/*Navbar Styling*/
+#navBar{
+	width:100%;
+	height: 75px;
+	background-color: rgba(51,51,51,1);
+	color:white;
+	margin:0;
+	padding:0;
+}
+
+#navBar ul{
+	list-style-type: none;
+	margin:0;
+	padding:0 40px;
+}
+
+#navBar ul li{
+	margin:0;
+	padding:0;
+}
+
+#navBar ul li a{
+	margin:0;
+	padding: 20px;
+	text-decoration: none;
+	color:white;
+}
+
+/*#bodyContainer{
+	display:inline-block;
+	width:100%;
+}*/
+
+.active {
+/*	background-color:#4CAF50;*/
+	font-weight: bold;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+/*ul {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}*/
+
+/*li {
+    float: left;
+}
+*/
+/*li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+*/
+
+
+/* Page Structure
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#bodyContainer{
+	width:100%;
+}
+
+#leftBox{
+	height:100%;
+	width:50%;
+	float:left;
+	background-color: rgba(255, 0, 0, 0.5);
+}
+#rightBox{
+	height:100%;
+	width:50%;
+	float:right;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Media Queries Desktop First
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (max-width: 979px) {
+  /* Selectors and styles affecting screens UP TO 979px (Desktop) */
+
+
+}
+
+@media (max-width: 767px) {
+    /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+}
+
+@media (max-width: 480px) {
+    /* Selectors and styles affecting screens UP TO 480px (Phone) */
+	#leftBox{
+		height:500px;
+		width:100%;
+		float:left;
+		background-color: rgba(255, 0, 0, 0.5);
+	}
+	#rightBox{
+		height:500px;
+		width:100%;
+		float:right;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+}
+
+
+/*
+#D9E021*/

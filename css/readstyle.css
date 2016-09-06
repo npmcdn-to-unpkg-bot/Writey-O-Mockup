@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-size: 22px;
+  font-family: "Helvetica", sans-serif;
+  color: #333333;
+}
+
+.container {
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 470px;
+  display: flex;
+  flex-flow: column wrap; /* Shorthand – you could use ‘flex-direction: column’ and ‘flex-wrap: wrap’ instead */
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.item {
+  display:inline-block;
+  background-color: orange;
+  width: 31%;
+  margin: 1%;
+  padding: 10px;
+}

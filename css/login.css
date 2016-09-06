@@ -1,8 +1,71 @@
+body{
+	background-color: rgba(158,0,93,1);
+}
+
 #loginContainer{
 	width:100%;
 }
 
 #loginCard{
-	width:500px;
-	margin:auto;
+	width: 520px;
+	height: 200px;
+	margin: 70px auto auto auto;
+	border-radius: 3px;
+	padding: 50px 100px;
+	background-color: rgba(255,255,255,0.3);158,0,93,1)
+}
+
+#loginCard input{
+	font-family:"Roboto",sans-serif;
+	height: 22px;
+	border: none;
+	border-radius: 2px;
+	width: 210px;
+	margin: 0 0 10px 0;
+	padding: 5px 10px;
+}
+
+#registerButton{
+	width:20%;
+	float: left;
+	height: 40px;
+	border-radius: 2px;
+	border: none;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	/* font-weight: bold; */
+	font-size: 1.2em;
+	background-color: rgb(158, 0, 93);
+	cursor:pointer;
+}
+
+#registerButton:hover{
+	background-color: rgba(0,0,0,0.6);
+}
+
+#registerButton:active{
+	background-color: rgba(0,0,0,0.8);
+}
+
+#loginButton{
+	margin: 0 20px 0 0;
+	width:20%;
+	float: left;
+	height: 40px;
+	border-radius: 2px;
+	border: none;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	/* font-weight: bold; */
+	font-size: 1.2em;
+	background-color: rgb(158, 0, 93);
+	cursor:pointer;
+}
+
+#loginButton:hover{
+	background-color: rgba(0,0,0,0.6);
+}
+
+#loginButton:active{
+	background-color: rgba(0,0,0,0.8);
 }

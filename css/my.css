@@ -261,6 +261,37 @@ li a {
 	text-align: center;
 }
 
+#titleLogo{
+	
+background-color: #9e005d;
+	
+font-family: "Lora", serif;
+	
+height: 160px;
+	
+width: 488px;
+	
+margin: 9px 0 0 -108px;
+	
+font-size: 10.5rem;
+}
+
+
+.homeMessage{
+	background-color: #9e005d;
+	position:absolute;
+	font-size: 3.5rem;
+	font-weight: 200;
+}
+
+#helloWelcome{
+	margin: -20px 0 0 -180px;
+}
+
+#nowThat{
+	margin: -10px 0px 0 50px;
+}
+
 /* Media Queries Desktop First*/
 @media (max-width: 979px) {
   /* Selectors and styles affecting screens UP TO 979px (Desktop) */

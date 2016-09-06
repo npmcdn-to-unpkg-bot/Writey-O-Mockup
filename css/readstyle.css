@@ -1,25 +1,47 @@
-* {
-  box-sizing: border-box;
-  font-size: 22px;
-  font-family: "Helvetica", sans-serif;
-  color: #333333;
+#readHeadingContainer{
+  width:100%;
+  height: 270px;
+  background-color: rgba(51,51,51,0.5);
 }
 
-.container {
+.readHeading{
+  text-align:center;
+  margin: 0 0 10px 0;
+  padding: 120px 0 0 0;
+  font-style: italic;
+  font-family: "Lora", serif;
+}
+
+.noOfStories{
+  
+text-align: center;
+  
+font-size: 2.0rem;
+  
+font-family: "Lora", serif;
+}
+
+#readContainer {
   padding: 10px;
-  max-width: 1000px;
+  width: 80%;
   margin: 0 auto;
-  height: 470px;
+  height: 620px;
   display: flex;
-  flex-flow: column wrap; /* Shorthand – you could use ‘flex-direction: column’ and ‘flex-wrap: wrap’ instead */
-  justify-content: flex-start;
+  flex-flow: column wrap;
   align-items: flex-start;
 }
 
-.item {
+.storyItem {
+  overflow: hidden;
+  /* white-space: inherit; */
   display:inline-block;
-  background-color: orange;
+  text-overflow: ellipsis;
+  background-color: #FAFAFA;
+  max-height:500px;
   width: 31%;
   margin: 1%;
   padding: 10px;
+  color:rgba(0,0,0,0.8);
+  border-radius: 2px;
+  box-shadow: 1px 6px 10px rgba(0,0,0,0.3);
 }

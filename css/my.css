@@ -48,11 +48,12 @@ p {
   margin-top: 0; }
 
 
-.logo{
+#logo{
 	font-family: 'Lora', serif;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 400;
+	padding: 18px 5px !important;
 }
 
 
@@ -79,7 +80,7 @@ p {
 
 #navBar ul li a{
 	margin:0;
-	padding: 20px;
+	padding: 25px 20px;
 	text-decoration: none;
 	color:white;
 }
@@ -114,7 +115,7 @@ p {
     float: left;
 }
 */
-/*li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -125,7 +126,7 @@ p {
 a:hover:not(.active) {
     background-color: #111;
 }
-*/
+
 
 
 /* Page Structure

@@ -6,9 +6,9 @@
 
     <!-- CSS -->
     <!-- Skeleton CSS -->
-    <link rel="stylesheet" href="css/skeleton.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/my.css" type="text/css">
+    <link rel="stylesheet" href="css/login.css" type="text/css">
 
   </head>
   <body>
@@ -20,6 +20,21 @@
         <li><a href="write.html" class="right navLink">write</a></li>
       </ul>
     </nav>
-    <h1>Login</h1>
+    <div id="loginContainer">
+      <div id="loginCard">
+        <form action="action_page.php">
+          First name:<br>
+          <input type="text" name="firstname" value="Mickey">
+          <br>
+          Last name:<br>
+          <input type="text" name="lastname" value="Mouse">
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+    </div>
+
+
   </body>
 </html>

@@ -60,12 +60,12 @@ $(window).resize(function(){
 	// console.log(circleWidth);
 
 
-    // rotating circular marker
-	var angle = 0;
-	  setInterval(function(){
-	    angle+=1;
-	  $("#markerContainer").rotate(angle);
-	 },50);
+ //    // rotating circular marker
+	// var angle = 0;
+	//   setInterval(function(){
+	//     angle+=1;
+	//   $("#markerContainer").rotate(angle);
+	//  },50);
 });
 
 
